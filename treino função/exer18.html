@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let produtos = [
+ {nome:"Mouse", preco:50},
+ {nome:"Teclado", preco:120},
+ {nome:"Monitor", preco:900}
+]
+
+function BuscarProduto(nome){
+
+    for(let produto of produtos){
+        if(nome == "Mouse"){
+            console.log("Mouse custa", produtos[0].preco)
+        } else if (nome == "Teclado"){
+            console.log("Teclado custa", produtos[1].preco)
+        } else if (nome == "Monitor"){
+            console.log("Monitor custa", produtos[2].preco)
+        } else {
+            console.log("Produto não encontrado!")
+        }
+    }
+
+}
+
+    BuscarProduto("Projetor")
+    </script>
+</body>
+</html>

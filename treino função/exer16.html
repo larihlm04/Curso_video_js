@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let produtos = [
+ {nome:"Mouse", preco:50},
+ {nome:"Teclado", preco:120},
+ {nome:"Monitor", preco:900}
+]
+
+function ProdutoMaisCaro(){
+    for(let produto of produtos){
+        if(produto.preco >= 800 ){
+            console.log(produto.nome)
+        }
+    }
+}
+
+    ProdutoMaisCaro()
+    </script>
+</body>
+</html>
