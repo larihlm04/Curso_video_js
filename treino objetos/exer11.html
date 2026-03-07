@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let pedidos = [
+ {produto:"Mouse", quantidade:2},
+ {produto:"Teclado", quantidade:1},
+ {produto:"Monitor", quantidade:3}
+]
+ 
+function Somar(){
+
+    let valor = 0
+
+    for(let pedido of pedidos){
+    
+    valor = valor + pedido.quantidade 
+
+    
+    }
+
+    return valor
+
+}
+
+console.log(Somar())
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let usuarios = [
+    {nome:"pessoa 1", idade:23},
+    {nome:"pessoa 2", idade:30},
+    {nome:"pessoa 3", idade:40},//array
+    {nome:"pessoa 4", idade:42},
+    {nome:"pessoa 5", idade:45}
+    ]
+
+    function AdicionarUsuario(nome, idade){//cria função
+        
+        usuarios.push({
+        nome:nome,
+        idade:idade//adiciona items na array
+        })
+
+        console.log(usuarios)//mostra a array
+        
+    }
+
+    AdicionarUsuario("pessoa 6",18)//adiciona os nomes na array
+
+    </script>
+</body>
+</html>
