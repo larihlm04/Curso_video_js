@@ -7,15 +7,20 @@
 </head>
 <body>
     <script>
+        let usuarios = [
+ {nome:"Ana", idade:22},
+ {nome:"Carlos", idade:17},
+ {nome:"Julia", idade:30}
+]
 
-//adicionar items na array
 
-let frutas = ["maçã","uva"]
 
-frutas.splice(1,0,"banana")
+let pegar = usuarios.map(usuario => usuario.nome)
 
-console.log(frutas)
+
+console.log(pegar)
 
     </script>
 </body>
 </html>
+

@@ -7,15 +7,11 @@
 </head>
 <body>
     <script>
+    let numeros = [5,10,15]
 
-//adicionar items na array
+    let total = numeros.reduce((soma, numeros) => soma + numeros)
 
-let frutas = ["maçã","uva"]
-
-frutas.splice(1,0,"banana")
-
-console.log(frutas)
-
+    console.log(total)
     </script>
 </body>
 </html>
